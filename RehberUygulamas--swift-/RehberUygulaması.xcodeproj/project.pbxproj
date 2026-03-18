@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11EB85C42F3252DE00421B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85C32F3252DE00421B1C /* AppDelegate.swift */; };
+		11EB85C62F3252DE00421B1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85C52F3252DE00421B1C /* SceneDelegate.swift */; };
+		11EB85C82F3252DE00421B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85C72F3252DE00421B1C /* ViewController.swift */; };
+		11EB85CB2F3252DE00421B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EB85C92F3252DE00421B1C /* Main.storyboard */; };
+		11EB85CD2F3252E000421B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EB85CC2F3252E000421B1C /* Assets.xcassets */; };
+		11EB85D02F3252E000421B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11EB85CE2F3252E000421B1C /* LaunchScreen.storyboard */; };
+		11EB85DB2F3252E000421B1C /* RehberUygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85DA2F3252E000421B1C /* RehberUygulamas_Tests.swift */; };
+		11EB85E52F3252E000421B1C /* RehberUygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85E42F3252E000421B1C /* RehberUygulamas_UITests.swift */; };
+		11EB85E72F3252E000421B1C /* RehberUygulamas_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB85E62F3252E000421B1C /* RehberUygulamas_UITestsLaunchTests.swift */; };
+		11EB85F42F32537500421B1C /* contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11EB85F32F32537500421B1C /* contact.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11EB85D72F3252E000421B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EB85B82F3252DE00421B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EB85BF2F3252DE00421B1C;
+			remoteInfo = "RehberUygulaması";
+		};
+		11EB85E12F3252E000421B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11EB85B82F3252DE00421B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11EB85BF2F3252DE00421B1C;
+			remoteInfo = "RehberUygulaması";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11EB85C02F3252DE00421B1C /* RehberUygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RehberUygulaması.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB85C32F3252DE00421B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11EB85C52F3252DE00421B1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11EB85C72F3252DE00421B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11EB85CA2F3252DE00421B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11EB85CC2F3252E000421B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11EB85CF2F3252E000421B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11EB85D12F3252E000421B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EB85D62F3252E000421B1C /* RehberUygulamasıTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RehberUygulamasıTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB85DA2F3252E000421B1C /* RehberUygulamas_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUygulamas_Tests.swift; sourceTree = "<group>"; };
+		11EB85E02F3252E000421B1C /* RehberUygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RehberUygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11EB85E42F3252E000421B1C /* RehberUygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUygulamas_UITests.swift; sourceTree = "<group>"; };
+		11EB85E62F3252E000421B1C /* RehberUygulamas_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUygulamas_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11EB85F32F32537500421B1C /* contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = contact.jpg; path = ../../../Downloads/contact.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EB85BD2F3252DE00421B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85D32F3252E000421B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85DD2F3252E000421B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11EB85B72F3252DE00421B1C = {
+			isa = PBXGroup;
+			children = (
+				11EB85C22F3252DE00421B1C /* RehberUygulaması */,
+				11EB85D92F3252E000421B1C /* RehberUygulamasıTests */,
+				11EB85E32F3252E000421B1C /* RehberUygulamasıUITests */,
+				11EB85C12F3252DE00421B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11EB85C12F3252DE00421B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11EB85C02F3252DE00421B1C /* RehberUygulaması.app */,
+				11EB85D62F3252E000421B1C /* RehberUygulamasıTests.xctest */,
+				11EB85E02F3252E000421B1C /* RehberUygulamasıUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11EB85C22F3252DE00421B1C /* RehberUygulaması */ = {
+			isa = PBXGroup;
+			children = (
+				11EB85C32F3252DE00421B1C /* AppDelegate.swift */,
+				11EB85C52F3252DE00421B1C /* SceneDelegate.swift */,
+				11EB85C72F3252DE00421B1C /* ViewController.swift */,
+				11EB85C92F3252DE00421B1C /* Main.storyboard */,
+				11EB85CC2F3252E000421B1C /* Assets.xcassets */,
+				11EB85CE2F3252E000421B1C /* LaunchScreen.storyboard */,
+				11EB85D12F3252E000421B1C /* Info.plist */,
+				11EB85F32F32537500421B1C /* contact.jpg */,
+			);
+			path = "RehberUygulaması";
+			sourceTree = "<group>";
+		};
+		11EB85D92F3252E000421B1C /* RehberUygulamasıTests */ = {
+			isa = PBXGroup;
+			children = (
+				11EB85DA2F3252E000421B1C /* RehberUygulamas_Tests.swift */,
+			);
+			path = "RehberUygulamasıTests";
+			sourceTree = "<group>";
+		};
+		11EB85E32F3252E000421B1C /* RehberUygulamasıUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11EB85E42F3252E000421B1C /* RehberUygulamas_UITests.swift */,
+				11EB85E62F3252E000421B1C /* RehberUygulamas_UITestsLaunchTests.swift */,
+			);
+			path = "RehberUygulamasıUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11EB85BF2F3252DE00421B1C /* RehberUygulaması */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB85EA2F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulaması" */;
+			buildPhases = (
+				11EB85BC2F3252DE00421B1C /* Sources */,
+				11EB85BD2F3252DE00421B1C /* Frameworks */,
+				11EB85BE2F3252DE00421B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RehberUygulaması";
+			productName = "RehberUygulaması";
+			productReference = 11EB85C02F3252DE00421B1C /* RehberUygulaması.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11EB85D52F3252E000421B1C /* RehberUygulamasıTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB85ED2F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulamasıTests" */;
+			buildPhases = (
+				11EB85D22F3252E000421B1C /* Sources */,
+				11EB85D32F3252E000421B1C /* Frameworks */,
+				11EB85D42F3252E000421B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EB85D82F3252E000421B1C /* PBXTargetDependency */,
+			);
+			name = "RehberUygulamasıTests";
+			productName = "RehberUygulamasıTests";
+			productReference = 11EB85D62F3252E000421B1C /* RehberUygulamasıTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11EB85DF2F3252E000421B1C /* RehberUygulamasıUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11EB85F02F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulamasıUITests" */;
+			buildPhases = (
+				11EB85DC2F3252E000421B1C /* Sources */,
+				11EB85DD2F3252E000421B1C /* Frameworks */,
+				11EB85DE2F3252E000421B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11EB85E22F3252E000421B1C /* PBXTargetDependency */,
+			);
+			name = "RehberUygulamasıUITests";
+			productName = "RehberUygulamasıUITests";
+			productReference = 11EB85E02F3252E000421B1C /* RehberUygulamasıUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11EB85B82F3252DE00421B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					11EB85BF2F3252DE00421B1C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					11EB85D52F3252E000421B1C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 11EB85BF2F3252DE00421B1C;
+					};
+					11EB85DF2F3252E000421B1C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 11EB85BF2F3252DE00421B1C;
+					};
+				};
+			};
+			buildConfigurationList = 11EB85BB2F3252DE00421B1C /* Build configuration list for PBXProject "RehberUygulaması" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11EB85B72F3252DE00421B1C;
+			productRefGroup = 11EB85C12F3252DE00421B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11EB85BF2F3252DE00421B1C /* RehberUygulaması */,
+				11EB85D52F3252E000421B1C /* RehberUygulamasıTests */,
+				11EB85DF2F3252E000421B1C /* RehberUygulamasıUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11EB85BE2F3252DE00421B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EB85D02F3252E000421B1C /* LaunchScreen.storyboard in Resources */,
+				11EB85CD2F3252E000421B1C /* Assets.xcassets in Resources */,
+				11EB85F42F32537500421B1C /* contact.jpg in Resources */,
+				11EB85CB2F3252DE00421B1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85D42F3252E000421B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85DE2F3252E000421B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EB85BC2F3252DE00421B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EB85C82F3252DE00421B1C /* ViewController.swift in Sources */,
+				11EB85C42F3252DE00421B1C /* AppDelegate.swift in Sources */,
+				11EB85C62F3252DE00421B1C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85D22F3252E000421B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EB85DB2F3252E000421B1C /* RehberUygulamas_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11EB85DC2F3252E000421B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11EB85E52F3252E000421B1C /* RehberUygulamas_UITests.swift in Sources */,
+				11EB85E72F3252E000421B1C /* RehberUygulamas_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11EB85D82F3252E000421B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EB85BF2F3252DE00421B1C /* RehberUygulaması */;
+			targetProxy = 11EB85D72F3252E000421B1C /* PBXContainerItemProxy */;
+		};
+		11EB85E22F3252E000421B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11EB85BF2F3252DE00421B1C /* RehberUygulaması */;
+			targetProxy = 11EB85E12F3252E000421B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11EB85C92F3252DE00421B1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EB85CA2F3252DE00421B1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11EB85CE2F3252E000421B1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11EB85CF2F3252E000421B1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11EB85E82F3252E000421B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11EB85E92F3252E000421B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11EB85EB2F3252E000421B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RehberUygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11EB85EC2F3252E000421B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RehberUygulaması/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11EB85EE2F3252E000421B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehberUygulaması.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehberUygulaması";
+			};
+			name = Debug;
+		};
+		11EB85EF2F3252E000421B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RehberUygulaması.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RehberUygulaması";
+			};
+			name = Release;
+		};
+		11EB85F12F3252E000421B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RehberUygulaması";
+			};
+			name = Debug;
+		};
+		11EB85F22F3252E000421B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-zgar.RehberUygulamas-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RehberUygulaması";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11EB85BB2F3252DE00421B1C /* Build configuration list for PBXProject "RehberUygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB85E82F3252E000421B1C /* Debug */,
+				11EB85E92F3252E000421B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB85EA2F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulaması" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB85EB2F3252E000421B1C /* Debug */,
+				11EB85EC2F3252E000421B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB85ED2F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulamasıTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB85EE2F3252E000421B1C /* Debug */,
+				11EB85EF2F3252E000421B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11EB85F02F3252E000421B1C /* Build configuration list for PBXNativeTarget "RehberUygulamasıUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11EB85F12F3252E000421B1C /* Debug */,
+				11EB85F22F3252E000421B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11EB85B82F3252DE00421B1C /* Project object */;
+}
